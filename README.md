@@ -1,6 +1,8 @@
 # Introduction
 A logistic regression algorithm by gradient descent that identifies whether a student will pass the Ontario standardized literacy test on their first try.
 
+While the logistic regression algorithm only requires numpy to run, it also requires scikit-learn for its confusion matrix capabilities so that the f1 score can be calculated.
+
 # Usage
 If you want to just play around, all of the work has already been done! `logistic_regression.py` has been set to run a k-fold crossfold validation test on the current data set `oversampled_output_normalized.csv`.
 
